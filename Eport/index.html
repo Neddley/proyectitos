@@ -7,29 +7,33 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Eport</title>
   </head>
-  <body>
+  <body onload="mueveReloj(); vueloNum(); terminalNum(); relleno()">
     <main>
       <div id="bienvenida">
-        <h1 id="titulo">Bienvenido a la plataforma Eport</h1>
+        <h1 id="titulo"></h1>
         <p id="info">
-          Aqui podrá encontrar la información de los vuelos más reciente en
-          nuestro aeropuerto.
+          
         </p>
       </div>
       <div id="div-hora">
-        <p id="titulo-hora">Hora:</p>
-        <h2 id="hora">15:48</h2>
+        <p id="titulo-hora"></p>
+        <h2 id="hora"></h2>
       </div>
       <div id="div-fecha">
-        <p id="titulo-fecha">Fecha:</p>
-        <h2 id="fecha">30-12-2020</h2>
+        <p id="titulo-fecha"></p>
+        <h2 id="fecha"></h2>
       </div>
       <div id="div-vuelo">
-        <h2 id="titulo-vuelo">El vuelo más próximo:</h2>
-        <p id="num-vuelo">Número de vuelo: 1625</p>
-        <p id="num-terminal">Terminal: 4</p>
+        <h2 id="titulo-vuelo"></h2>
+        <p id="num-vuelo"></p>
+        <p id="num-terminal"></p>
       </div>
     </main>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>

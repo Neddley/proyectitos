@@ -23,7 +23,7 @@ main {
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
 h1 {
@@ -49,72 +49,80 @@ p {
 #titulo {
   width: 80%;
   height: fit-content;
-  margin: 40px 0px 10px 30px;
+  margin: 50px 0px 10px 50px;
 }
 
 #info {
-    width: 80%;
-    height: fit-content;
-    margin: 15px 0px 10px 30px;
+  width: 80%;
+  height: fit-content;
+  margin: 15px 0px 10px 50px;
 }
 
 #div-hora {
-    width: 40%;
-    height: 25vh;
-    background-color: aliceblue;
-    border: 2px solid rgb(39, 6, 97, 1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 40%;
+  height: 25vh;
+  background-color: aliceblue;
+  border: 2px solid rgb(39, 6, 97, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #titulo-hora {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 #hora {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
+/* #reloj {
+  background-color: white;
+  color: black;
+  font-family: Verdana, Arial, Helvetica;
+  font-size: 8pt;
+  text-align: center;
+} */
+
 #div-fecha {
-    width: 40%;
-    height: 25vh;
-    background-color: aliceblue;
-    border: 2px solid rgb(39, 6, 97, 1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 40%;
+  height: 25vh;
+  background-color: aliceblue;
+  border: 2px solid rgb(39, 6, 97, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #titulo-fecha {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 #fecha {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 #div-vuelo {
-    width: 80%;
-    height: 25vh;
-    background-color: aliceblue;
-    border: 2px solid rgb(39, 6, 97, 1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 80%;
+  height: 25vh;
+  background-color: aliceblue;
+  border: 2px solid rgb(39, 6, 97, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #titulo-vuelo {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 #num-vuelo {
-    margin: 5px 0px;
+  margin: 5px 0px;
 }
 
 #num-terminal {
-    margin-top: 5px;
+  margin-top: 5px;
 }
